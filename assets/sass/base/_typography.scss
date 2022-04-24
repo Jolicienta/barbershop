@@ -1,0 +1,20 @@
+//TIPOGRAFÍAS
+
+$roboto: 'Roboto', sans-serif;
+$playfair: 'Playfair Display', serif;
+
+// PESOS DE FUENTE
+$regular: 400;
+$light: 300;
+$veryBold: 900;
+
+h1, h3, h5 {
+  font-family: $playfair;
+  font-weight: $veryBold;
+}
+
+p {
+  font-family: $roboto;
+  font-weight: $regular;
+  color: $Nickel;
+}

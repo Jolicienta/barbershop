@@ -1,0 +1,18 @@
+// Sección main o principal. Cuerpo del artículo
+
+main {
+  font-weight: $regular;
+  line-height: 40px;
+
+  h5 {
+    color: $Nickel;
+    font-size: 1rem;
+    margin-top: 70px;
+    margin-bottom: 70px;
+  }
+
+  p {
+    font-size: 1rem;
+    margin-bottom: 70px;
+  }
+}

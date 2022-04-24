@@ -1,0 +1,52 @@
+/* Estilos versión movil */
+@media (max-width: 575.98px) {
+  header {
+    background-position: 50%;
+  }
+
+  h1 {
+    font-size: 45px;
+    padding: 30px;
+    margin: 0;
+  }
+}
+
+/* Estilos versión web */
+@media (min-width: 768px) {
+  header {
+    background-position: 80%;
+  }
+
+  h1 {
+    font-size: 70px;
+  }
+}
+
+header {
+  @include mi__centrar;
+  background-image: url(../images/post-image.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 110vh;
+
+  .container {
+    text-align: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    }
+
+  h1 {
+    color: $White;
+    font-style: italic;
+  }
+
+  #bajar {
+    margin-top: 85vh;
+    position: absolute;
+
+    i {
+      color: $White;
+      font-size: 40px;
+    }
+  }
+}

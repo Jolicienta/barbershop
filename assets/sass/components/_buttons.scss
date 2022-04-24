@@ -1,0 +1,32 @@
+// Estilo de los botones
+
+#articulo {
+
+  @media (max-width: 575.98px) {
+    .botones {
+      display: flex;
+      justify-content: center;
+    }
+  }
+
+  .btn {
+    border-radius: 50px;
+    margin-bottom: 90px;
+    line-height: 35px;
+    background-color: $Nickel;
+    border: 1px solid $Nickel;
+    color: $White;
+  }
+
+  .btn:hover {
+    background-color: $LightGray;
+    border: 1px solid $LightGray;
+    color: $White;
+  }
+
+  .btn:focus {
+    background-color: $Nickel !important;
+    border: 1px solid $LightGray !important;
+    color: $White !important;
+  }
+}

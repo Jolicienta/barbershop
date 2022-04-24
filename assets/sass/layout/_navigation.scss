@@ -1,0 +1,34 @@
+/* Estilos versión movil */
+@media (max-width: 575.98px) {
+  .navbar-dark {
+    #logo {
+      width: 90px;
+      margin: 20px;
+    }
+  }
+}
+
+/* Estilos versión web */
+@media (min-width: 768px) {
+  #barra__navegacion {
+    padding: 25px 110px;
+  }
+
+  .navbar-dark {
+    #logo {
+      width: 78px;
+    }
+  }
+}
+
+.navbar-dark {
+  background-color: $EerieBlack;
+
+  .navbar-nav .nav-link {
+    color: $White;
+  }
+
+  .navbar-nav .nav-link:hover {
+    color: $SpanishPink;
+  }
+}

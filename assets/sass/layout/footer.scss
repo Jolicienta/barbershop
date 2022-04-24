@@ -1,0 +1,26 @@
+// Estilos del footer
+/* Estilos versión web */
+@media (max-width: 575.98px) {
+  footer {
+    height: 220px;
+
+    img {
+      width: 100px;
+    }
+  }
+}
+
+/* Estilos versión web */
+@media (min-width: 768px) {
+  footer {
+    height: 206px;
+
+    img {
+      width: 122px;
+    }
+  }
+}
+
+footer {
+  background-color: $EerieBlack;
+}
